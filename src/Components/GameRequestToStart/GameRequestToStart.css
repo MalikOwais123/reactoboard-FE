@@ -1,0 +1,19 @@
+.game_request_container {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  background-color: #212b36;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+}
+
+.game_request_container .btn_wrapper {
+  margin-top: 10px;
+}

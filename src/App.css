@@ -1,0 +1,67 @@
+.app {
+  background-color: #161c24;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(145, 158, 171);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(145, 158, 171);
+}
+
+.MuiMenu-list {
+  max-height: 300px !important;
+}
+
+.secondary_text {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: left;
+  padding: 16px;
+  border-bottom: none;
+  color: rgb(145, 158, 171);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c_button {
+  background-color: rgb(9, 134, 236);
+  box-shadow: rgb(9 134 236 / 24%) 0px 8px 16px 0px;
+  border: none;
+  color: white;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease 0s;
+}
+.c_button:hover {
+  box-shadow: unset;
+}
+
+/* add disabled button style */
+.c_button_disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

@@ -1,0 +1,21 @@
+.board_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  /* height: 100vh; */
+}
+.board_wrapper {
+  width: 50vw;
+  height: 70vh;
+  background: pink;
+}
+.tile_box {
+  background-color: aqua;
+}
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

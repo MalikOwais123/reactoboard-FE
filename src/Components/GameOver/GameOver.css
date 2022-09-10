@@ -1,0 +1,19 @@
+.game_over_container {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  background-color: #212b36;
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.game_over_container .subHeading {
+  text-align: center;
+}
