@@ -301,7 +301,7 @@ const Board = () => {
         <div className="btn_wrapper">
           {/* Reset Board */}
           <div>
-            <button className="c_button" onClick={onResetGame}>
+            <button className="c_button_light" onClick={onResetGame}>
               Reset
             </button>
           </div>
@@ -314,7 +314,7 @@ const Board = () => {
             </button>
           </div>
           <div>
-            <button className="c_button" onClick={() => setShowRuleModal(true)}>
+            <button className="c_button_light" onClick={() => setShowRuleModal(true)}>
               Rules
             </button>
           </div>
