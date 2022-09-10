@@ -14,7 +14,7 @@ const GameRuleContent = ({ onPlayAgain }) => {
             first block
           </li>
           <li>
-            <span className="subHeading">1. </span> Use your arrow keys to move
+            <span className="subHeading">2. </span> Use your arrow keys to move
             the knight
           </li>
           <li>
@@ -22,14 +22,14 @@ const GameRuleContent = ({ onPlayAgain }) => {
             coins but be careful from dragon's
           </li>
           <li>
-            <span className="subHeading">2. </span> Dragon's are your enemies
+            <span className="subHeading">4. </span> Dragon's are your enemies
           </li>
           <li>
-            <span className="subHeading">2. </span> Game will be over if you
+            <span className="subHeading">5. </span> Game will be over if you
             touch the dragon
           </li>
           <li>
-            <span className="subHeading">4. </span>Collect all the items in the
+            <span className="subHeading">6. </span>Collect all the items in the
             shortest time
           </li>
         </ul>
