@@ -10,6 +10,7 @@ import GameRequestToStart from '../GameRequestToStart/GameRequestToStart'
 import GameOver from '../GameOver/GameOver'
 import GameFinished from './../GameFinished/GameFinished'
 import { createLeaderAPI } from '../../service'
+import GameRuleContent from '../GameRuleContent/GameRuleContent'
 
 const GAME_STATE = {
   NOT_STARTED: 'NOT_STARTED',
@@ -23,6 +24,7 @@ const Board = () => {
   const boardRef = useRef(null)
   const [playerName, setPlayerName] = useState('')
   const [showModal, setShowModal] = useState(false)
+  const [showRuleModal, setShowRuleModal] = useState(false)
   const [gameState, setGameState] = useState(GAME_STATE.NOT_STARTED)
   // * K--> current position
   // * D--> dragon
@@ -311,6 +313,11 @@ const Board = () => {
               {isTimerStarted ? 'Game Started' : 'Start Game'}
             </button>
           </div>
+          <div>
+            <button className="c_button" onClick={() => setShowRuleModal(true)}>
+              Rules
+            </button>
+          </div>
         </div>
       </div>
       {/* Modal will only appear when user is not playing */}
@@ -329,6 +336,9 @@ const Board = () => {
             score={score}
           />
         )}
+      </Modal>
+      <Modal modal={showRuleModal} setModal={setShowRuleModal}>
+        <GameRuleContent />
       </Modal>
     </>
   )
