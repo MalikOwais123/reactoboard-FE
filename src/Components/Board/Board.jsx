@@ -33,10 +33,10 @@ const Board = () => {
 
   // * get random board values for the board cells of 20*20 grid but always keep the knight in the top left corner
   const getRandBoard = () =>
-    Array(10)
+    Array(20)
       .fill()
       .map(() =>
-        Array(10)
+        Array(20)
           .fill()
           .map(() => {
             const random = Math.floor(Math.random() * 4)
